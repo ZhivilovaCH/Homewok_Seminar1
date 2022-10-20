@@ -8,11 +8,11 @@ int b = int.Parse(Console.ReadLine()!);
 
 if (a > b)
 {
-    Console.WriteLine($"max->"+  a);
+    Console.WriteLine("max-> A "+  a);
 }
 else if (b > a)
 {
-    Console.WriteLine($"max->" + b);
+    Console.WriteLine("max->B " + b);
 }
 else if (b == a)
 {
